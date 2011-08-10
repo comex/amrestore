@@ -1,0 +1,9 @@
+I want to restore my device without using the iTunes GUI (or Xcode),
+but I can't get idevicerestore to work on OS X.
+
+This is a compromise - a simple command-line client for the restore
+functionality in Apple's MobileDevice framework.
+
+To activate the device after restoring, ideviceactivate does work
+on OS X; here are some binaries if you want:
+http://a.qoid.us/ideviceactivate-etc.tar.bz2
