@@ -43,9 +43,6 @@ static void eventHandler(AMRestorableDeviceRef _device, int type, void *arg) {
     }
 }
 
-static void usage() {
-}
-
 int main(int argc, char **argv) {
     int c;
     while((c = getopt(argc, argv, "s:")) != -1)
