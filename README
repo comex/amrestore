@@ -7,3 +7,13 @@ functionality in Apple's MobileDevice framework.
 To activate the device after restoring, ideviceactivate does work
 on OS X; here are some binaries if you want:
 http://a.qoid.us/ideviceactivate-etc.tar.bz2
+
+Note: If you're in DFU mode and uploading iBSS fails (e.g. because
+it's a PwnageTool ipsw but you didn't enter pwned DFU mode with
+redsn0w or PwnageTool first), this tool will get into an infinite
+loop with a lot of text scrolling down the screen.
+
+On the other hand, it will sometimes take a few seconds with no
+visible progress, so be patient.
+
+Note 2: This likes to crash TinyUmbrella for some reason.
